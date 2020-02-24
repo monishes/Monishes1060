@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> About </title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css?family=Anton|Krona+One|Lobster|Righteous&display=swap" rel="stylesheet">
+<link rel="icon" href="about_icon.png" type="image/icon type">
+<style>
+*{
+margin:0vw;
+padding:0vw;
+}
+.content{
+	width:65%;
+	float:right;
+	display:inline-block;
+	}
+h1 {
+font-size:5vw;
+text-align:center;
+font-family:Lobster;
+color:#e97100;
+}
+.profile{
+border-radius:50%;
+height:15vw;
+padding-right:5vw;
+padding-left:5vw;
+display:inline-block;
+margin-top:2vw;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+table {
+	display:inline-block;
+	font-size:3vw;
+	margin-top:2vw;
+	padding:0vw;
+	text-align:left;
+}
+.th_t {
+	width:15vw;
+}
+td {
+	padding-left:2vw;
+}
+th {
+color:#499d52;
+}
+td{
+color:#006100;
+font-weight: bold;
+}
+.gallery img{
+	width:20vw;
+	height:20vw;
+	padding:0vw;
+	margin:0vw;
+	transform:scale(1.0);
+}
+.gallery img:hover{
+	width:20vw;
+	height:20vw;
+	padding:0vw;
+	margin:0vw;
+	transform:scale(0.9);
+	transition:transform 0.5s;
+}
+.gallery{
+padding-top:1vw;
+}
+.icons{
+	display:inline-block;
+	float:right;	
+}
+.icons a:link,
+.icons a:visited{
+	font-size:7vw;
+	display:block;
+	text-decoration:none;
+	color:#000000;
+}
+</style>
+</head>
+<body style="background-image:linear-gradient(rgb(255,255,255,0.3),rgb(255,255,255,0.3)),url(bg_1.jpg);background-size:cover;">
+<div class="content clearfix">
+<div class="icons">
+<a href="Home.html">
+<ion-icon name="home-outline"></ion-icon>
+</a>
+</div>
+<h1> Profile </h1>
+<img class="profile clearfix" src="profile.png" alt="profile_pic" style="float:left;">
+<table>
+<tr>
+<th class="th_t"> Name</th>
+<th> : </th>
+<td> Monish ES </td>
+</tr>
+<tr>
+<th class="th_t"> Age</th>
+<th> : </th>
+<td> 17 </th>
+</tr>
+<tr>
+<th class="th_t"> D.O.B</th>
+<th> : </th>
+<td> 27 Feb 2002 </td>
+</tr>
+<tr>
+<th class="th_t"> Profession</th>
+<th> : </th>
+<td> Programmer </td>
+</tr>
+</table>
+</div>
+<div class="content clearfix">
+<div class="gallery">
+<h1 style="font-size:3vw;margin-bottom:1vw;"> Gallery </h1>
+<img src="img2.png" alt="gallery_1">
+<img src="img1.png" alt="gallery_1">
+<img src="img3.png" alt="gallery_1">
+<img src="img4.png" alt="gallery_1">
+<img src="img5.png" alt="gallery_1">
+<img src="img6.png" alt="gallery_1">
+</div>
+
+</div>
+<script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>s
+</body>
+</html>

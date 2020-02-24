@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Location </title>
+<meta name="viewport" content="width=device-width, initial-scale:1.0">
+<link rel="icon" href="location_icon.png" type="image/icon type">
+<link href="https://fonts.googleapis.com/css?family=Anton|Krona+One|Lobster|Righteous&display=swap" rel="stylesheet">
+
+<style>
+*{
+margin:0vw;
+padding:0vw;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.content{
+	width:95%;
+	display:inline-block;
+	float:left;
+	text-align:left;
+
+}
+.div1{
+	width:40%;
+	display:inline-block;
+	float:left;
+	text-align:center;
+	padding-left:2vw;
+
+}
+.div2{
+	width:40%;
+	disply:inline-block;
+	float:right;
+	text-align:left;
+	padding-right:2vw;
+}
+h1 {
+	color:#e97100;
+	font-size:5vw;
+	font-family:Lobster;
+	text-align:center;
+
+}
+h2 {
+	color:#464646;
+	font-size:3vw;
+	font-family:Anton;
+	margin-bottom:1vw;
+
+}
+.icons{
+	display:inline-block;
+	float:right;	
+}
+.icons a:link,
+.icons a:visited{
+	font-size:5vw;
+	display:block;
+	text-decoration:none;
+	color:#ffffff;
+}
+</style>
+</head>
+<body style="background-image:url(bg1.jpg);background-size:cover;">
+<div class="icons clearfix">
+<a href="Home.html">
+<ion-icon name="home-outline"></ion-icon>
+</a>
+</div>
+<div class="content clearfix">
+<h1> Location </h1>
+<div class="div1 clearfix">
+<h2> Current Location </h2>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.2447794063196!2d75.80904361547043!3d26.86396306865322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db66fe2879c7f%3A0xdfc843bf9b6f869a!2sMalaviya%20National%20Institute%20of%20Technology%20Jaipur!5e0!3m2!1sen!2sin!4v1582496843571!5m2!1sen!2sin" width="80%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+</div>
+<div class="div2 clearfix">
+<h2 style="text-align:center;padding-right:5vw;"> Home </h2>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d244.5222369269636!2d77.72640709147312!3d11.30868419364593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba96f9eeb8eea1b%3A0x94bfaef7b637b0e7!2sCS%20Sengotaiya%20Thirumana%20Mandapam!5e0!3m2!1sen!2sin!4v1582497063914!5m2!1sen!2sin" width="80%" height="450vw" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+</div>
+</div>
+<script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+</body>
+</html>
